@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+
+
+</head>
+<body>
+
+
+
+   <section id="page_content_wrapper" class="create_account">
+        <div class="container">
+        		<h2 class="text-center"><?php the_title(); ?></h2>
+                <p class="lead text-center">Already have an account? <a href="<?php bloginfo('url'); ?>/login/">Login here</a></p> 
+        	<div class="create_acc_holder">
+				<div class="clearfix"></div>
+					<form id="patientform" action="" method="post" class="account_info_form">
+						<fieldset>
+							<div class="row form_row">
+									<div class="col-sm-12 form_col">
+										<input id="ch_pwd" name="ch_pwd" type="password" placeholder="Choose a Password">
+										<span class="ch_pwd error phpchk"></span>
+									</div>
+									<div class="col-sm-12 form_col">
+										<input id="ch_pwd_confirm" name="ch_pwd_confirm" type="password" placeholder="Confirm your Password">
+										<span class="ch_pwd_confirm error"></span>
+									</div>
+							</div><!--/.form_row -->
+
+							<div class="row">
+								<div class="col-sm-12 form_col text-center">
+									<input id="t_submit" name="t_submit" type="submit" value="Submit">
+								</div>
+							</div>                   
+						</fieldset>
+					</form>
+            </div>
+        </div>
+    </section> <!--/#page_content_wrapper -->
+
+
+<!-- SCRIPTS -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="">
+
+<script type="text/javascript" src="js/password_val.js"></script>
+
+</body>
+</html>
+
+
